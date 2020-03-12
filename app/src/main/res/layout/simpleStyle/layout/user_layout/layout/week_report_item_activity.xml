@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.el_done1.WeekReportItemActivity"
+    android:background="@drawable/week_report_bg">
+
+    <Button
+        android:id="@+id/week_report_day_back"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="←返回"
+        />
+
+
+
+    <TextView
+        android:id="@+id/week_report_focus_success_times"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="专注次数：\n暂无记录"
+        android:textSize="30sp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/week_report_focus_success_total_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/week_report_focus_success_times"
+        android:text="专注总时长：\n暂无记录"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/week_report_focus_success_time_average"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="平均每次专注时长：\n暂无记录"
+        android:textSize="30sp"
+        android:layout_below="@id/week_report_focus_success_total_time"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        />
+
+</RelativeLayout>
